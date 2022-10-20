@@ -1,0 +1,34 @@
+{
+  "$id": "http://example.com/myURI.schema.json",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "additionalProperties": false,
+  "description": "Sample schema to help you get started.",
+  "properties": {
+    "Item_Name": {
+      "description": "The number type is used for any numeric type, either integers or floating point numbers.",
+      "type": "string"
+    },
+    "Order_Date": {
+      "description": "The string type is used for strings of text.",
+      "type": "string"
+    },
+    "Order_Number": {
+      "description": "The string type is used for strings of text.",
+      "type": "number"
+    },
+    "Product_Price": {
+      "description": "The number type is used for any numeric type, either integers or floating point numbers.",
+      "type": "number"
+    },
+    "Quantity": {
+      "description": "The number type is used for any numeric type, either integers or floating point numbers.",
+      "type": "number"
+    },
+    "Total_Products": {
+      "description": "The number type is used for any numeric type, either integers or floating point numbers.",
+      "type": "number"
+    }
+  },
+  "title": "SampleRecord",
+  "type": "object"
+}
